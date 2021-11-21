@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define n 20
 
 struct node *first;
 int totalNode=0;
