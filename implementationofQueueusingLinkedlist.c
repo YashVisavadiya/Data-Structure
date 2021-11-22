@@ -101,6 +101,10 @@ void main()
                 Display();
                 break;
             }
+            case 0:
+            { 
+                break;
+            }
             default:
             {
                 printf("Please Enter Correct Choice ... \n");
