@@ -92,6 +92,7 @@ void reverseDoublyLinkedList()
     {
         next=current->rptr;
         current->rptr=prev;
+        current->lptr=next;
         prev=current;
         current=next;
 
@@ -107,6 +108,7 @@ void main()
     insertatRight(3);
     insertatRight(4);
     insertatLeft(5);
+
     printDoublyLinkedList();
 
     reverseDoublyLinkedList();
